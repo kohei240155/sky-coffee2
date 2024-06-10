@@ -21,6 +21,14 @@ img {
   vertical-align: bottom;
 }
 
+/* レイアウト */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+  background-color: red;
+}
+
 /* ヘッダー */
 .header {
   padding: 50px 0;
@@ -29,4 +37,10 @@ img {
 .header .logo {
   width: 280px;
   margin: 0 auto;
+}
+
+/* メインビジュアル */
+.main-visual {
+  text-align: center;
+  background-color: red;
 }
