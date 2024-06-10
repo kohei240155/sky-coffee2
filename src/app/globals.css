@@ -42,5 +42,25 @@ img {
 /* メインビジュアル */
 .main-visual {
   text-align: center;
-  background-color: red;
+}
+
+/* グローバルナビ */
+.global-nav {
+  padding: 40px 0;
+}
+
+.global-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.global-nav ul li {
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin-right: 80px;
+}
+
+.global-nav ul li:last-child {
+  margin-right: 0;
 }
