@@ -26,7 +26,6 @@ img {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 30px;
-  background-color: yellow;
 }
 
 /* ヘッダー */
@@ -107,7 +106,6 @@ img {
 
 /* ブログ記事一覧 */
 .blog {
-  background-color: gray;
   padding: 50px 0;
 }
 
@@ -187,4 +185,23 @@ img {
   background-image: url("/images/icon_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 5px 9px;
+}
+
+/* フッター */
+.footer {
+  padding: 70px 0 30px;
+  background-color: #000;
+}
+
+.footer .logo {
+  width: 180px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.footer .copyright {
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: #8b8b8b;
+  text-align: center;
 }
