@@ -26,6 +26,7 @@ img {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 30px;
+  background-color: yellow;
 }
 
 /* ヘッダー */
@@ -102,4 +103,88 @@ img {
 .concept .text p {
   font-size: 16px;
   line-height: 1.8;
+}
+
+/* ブログ記事一覧 */
+.blog {
+  background-color: gray;
+  padding: 50px 0;
+}
+
+.blog .heading {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  color: #24a8bf;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog .subtitle {
+  display: block;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #333;
+  margin-top: 8px;
+}
+
+.blog .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog .list .item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.blog .list .item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.blog .list .img {
+  margin-bottom: 12px;
+}
+
+.blog .list .title {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.blog .list .date {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.btn {
+  display: block;
+  position: relative;
+  width: 220px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1;
+  color: #24a8bf;
+  text-align: center;
+  margin: 0 auto;
+  padding: 18px 0;
+  transition: opacity 0.3s;
+  border: 1px solid #24a8bf;
+}
+
+.btn::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  width: 5px;
+  height: 9px;
+  transform: translateY(-50%);
+  background-image: url("/images/icon_arrow-right.png");
+  background-repeat: no-repeat;
+  background-size: 5px 9px;
 }
